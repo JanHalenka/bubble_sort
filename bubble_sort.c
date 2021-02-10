@@ -33,4 +33,11 @@ int main(void)
       break;
     }
   }
+
+  // Show the sorted array
+  for (int i = 0; i < NUMBER; i++)
+  {
+    printf("%i ", unsrtd_nmbrs[i]);
+  }
+  printf("\n");
 }
