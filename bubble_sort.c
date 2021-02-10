@@ -6,7 +6,7 @@ int main(void)
 {
   // Creating an array
   int unsrtd_nmbrs[] = {7, 5, 2, 8, 6, 3, 4, 1};
-  const int NUMBER = 8
+  const int NUMBER = 8;
 
   // Repeat n-1 times
   for (int i = 0; i < NUMBER - 1; i++)
