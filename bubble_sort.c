@@ -16,7 +16,14 @@ int main(void)
     for (int j = 0; j < NUMBER - 1; j++)
     {
       // If i'th and i+1'th elements out of order
+        if (unsrtd_nmbrs[j] > unsrtd_nmbrs[j + 1])
+        {
         // Swap them
+        int temp = unsrtd_nmbrs[j];
+        unsrtd_nmbrs[j] = unsrtd_nmbrs[j + 1];
+        unsrtd_nmbrs[j + 1] = temp;
+        counter++;
+        }
     }
     // If no swaps
       // Quit
